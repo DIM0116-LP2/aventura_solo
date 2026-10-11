@@ -1,9 +1,9 @@
-package game.personagem.inventario;
+package com.lpii.aventurasolo.model.personagem.inventario;
 
 import java.util.LinkedList;
 import java.util.Objects;
 
-import game.item.Item;
+import com.lpii.aventurasolo.game.item.Item;
 
 public class Inventario {
 

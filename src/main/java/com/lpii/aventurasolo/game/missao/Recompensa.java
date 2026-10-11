@@ -1,8 +1,8 @@
-package game.missao;
+package com.lpii.aventurasolo.game.missao;
 
 import java.util.Objects;
 
-import game.item.*;
+import com.lpii.aventurasolo.game.item.*;
 
 public final class Recompensa {
     private final Item item;

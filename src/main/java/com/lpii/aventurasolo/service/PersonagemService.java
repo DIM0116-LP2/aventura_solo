@@ -1,17 +1,10 @@
-package game.personagem;
+package com.lpii.aventurasolo.service;
 
-public abstract class Personagem{
+import org.springframework.stereotype.Service;
+import com.lpii.aventurasolo.model.personagem.Personagem;
 
-    private final String name;
-    private int life;
-    private final int init_life;
-
-    // [ I ] CONSTRUCTORS
-    public Personagem(String name, int life){
-        this.name = name;
-        this.life = life;
-        this.init_life = life;
-    }
+@Service
+public abstract class PersonagemService {
 
     // [ II ] METHODS
     public final String get_name(){ return this.name; }
@@ -38,9 +31,5 @@ public abstract class Personagem{
     }
     public abstract void attack(Personagem p);
     protected abstract void die();
-
-    // [ III ] OVERRIDE METHODS
-    @Override
-    public abstract String toString();
 
 }

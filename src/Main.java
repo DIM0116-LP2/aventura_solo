@@ -1,5 +1,6 @@
 import java.util.Scanner;
-import game.gamemaster.GameMaster;
+
+import com.lpii.aventurasolo.game.gamemaster.GameMaster;
 
 public class Main{
 

@@ -1,4 +1,4 @@
-package game.missao;
+package com.lpii.aventurasolo.game.missao;
 
 import java.util.Objects;
 

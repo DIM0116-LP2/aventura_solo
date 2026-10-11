@@ -1,4 +1,4 @@
-package game.item;
+package com.lpii.aventurasolo.game.item;
 
 public enum Raridade {
     COMUM,

@@ -1,6 +1,6 @@
-package game.personagem.player;
+package com.lpii.aventurasolo.model.personagem.player;
 
-import game.personagem.Personagem;
+import com.lpii.aventurasolo.model.personagem.Personagem;
 
 public class Mago extends Player{
 

@@ -1,11 +1,11 @@
-package game.personagem.player;
+package com.lpii.aventurasolo.model.personagem.player;
 
 import java.util.Objects;
 
-import game.item.Item;
-import game.missao.*;
-import game.personagem.Personagem;
-import game.personagem.inventario.Inventario;
+import com.lpii.aventurasolo.game.item.Item;
+import com.lpii.aventurasolo.game.missao.*;
+import com.lpii.aventurasolo.model.personagem.Personagem;
+import com.lpii.aventurasolo.model.personagem.inventario.Inventario;
 
 import java.util.ArrayList;
 
