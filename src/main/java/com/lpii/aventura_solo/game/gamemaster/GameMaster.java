@@ -4,10 +4,10 @@ import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 
-import com.lpii.aventura_solo.game.item.*;
-import com.lpii.aventura_solo.game.missao.*;
-import com.lpii.aventura_solo.game.personagem.player.*;
-import com.lpii.aventura_solo.game.personagem.inimigo.*;
+import com.lpii.aventura_solo.model.item.*;
+import com.lpii.aventura_solo.model.missao.*;
+import com.lpii.aventura_solo.model.personagem.player.*;
+import com.lpii.aventura_solo.model.personagem.inimigo.*;
 
 
 public class GameMaster{

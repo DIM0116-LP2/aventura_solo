@@ -1,7 +1,7 @@
-package com.lpii.aventura_solo.game.item.types;
+package com.lpii.aventura_solo.model.item.types;
 
-import com.lpii.aventura_solo.game.item.*;
-import com.lpii.aventura_solo.game.personagem.Personagem;
+import com.lpii.aventura_solo.model.item.*;
+import com.lpii.aventura_solo.model.personagem.Personagem;
 
 public final class Armadura extends Item{
 

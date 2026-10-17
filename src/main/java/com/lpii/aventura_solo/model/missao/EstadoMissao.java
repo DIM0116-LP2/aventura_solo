@@ -1,4 +1,4 @@
-package com.lpii.aventura_solo.game.missao;
+package com.lpii.aventura_solo.model.missao;
 
 public enum EstadoMissao {
     INATIVO,

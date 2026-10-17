@@ -1,6 +1,6 @@
-package com.lpii.aventura_solo.game.personagem.player;
+package com.lpii.aventura_solo.model.personagem.player;
 
-import com.lpii.aventura_solo.game.personagem.Personagem;
+import com.lpii.aventura_solo.model.personagem.Personagem;
 
 public class Arqueiro extends Player{
 

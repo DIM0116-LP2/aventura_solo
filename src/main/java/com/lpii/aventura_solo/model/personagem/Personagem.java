@@ -1,4 +1,4 @@
-package com.lpii.aventura_solo.game.personagem;
+package com.lpii.aventura_solo.model.personagem;
 
 public abstract class Personagem{
 

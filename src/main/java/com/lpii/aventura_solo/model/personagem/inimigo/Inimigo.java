@@ -1,6 +1,6 @@
-package com.lpii.aventura_solo.game.personagem.inimigo;
+package com.lpii.aventura_solo.model.personagem.inimigo;
 
-import com.lpii.aventura_solo.game.personagem.Personagem;
+import com.lpii.aventura_solo.model.personagem.Personagem;
 
 public abstract class Inimigo extends Personagem {
 

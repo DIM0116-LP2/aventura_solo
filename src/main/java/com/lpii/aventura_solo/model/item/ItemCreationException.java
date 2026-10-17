@@ -1,4 +1,4 @@
-package com.lpii.aventura_solo.game.item;
+package com.lpii.aventura_solo.model.item;
 
 public final class ItemCreationException extends RuntimeException{
 

@@ -1,6 +1,6 @@
-package com.lpii.aventura_solo.game.item;
+package com.lpii.aventura_solo.model.item;
 
-import com.lpii.aventura_solo.game.item.types.*;
+import com.lpii.aventura_solo.model.item.types.*;
 
 public final class ItemBuilder{
 
