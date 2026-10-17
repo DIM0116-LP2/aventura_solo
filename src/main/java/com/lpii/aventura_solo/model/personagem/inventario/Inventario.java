@@ -1,6 +1,7 @@
 package com.lpii.aventura_solo.model.personagem.inventario;
 
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Objects;
 
 import com.lpii.aventura_solo.model.item.Item;
@@ -25,21 +26,8 @@ public class Inventario {
         items.remove(idx);
         return used;
     }
+    public List<Item> list(){ return List.copyOf(items); }
     public boolean empty(){ return items.isEmpty(); }
     public int size(){ return items.size(); }
-
-    //  [ III ] OVERRIDE METHODS
-    @Override
-    public String toString(){
-        StringBuilder ret = new StringBuilder();
-
-        int inv_size = items.size();
-
-        for (int i = 0; i < inv_size; i++){
-            ret.append(String.format("#%d   %s%n", i+1, items.get(i)));
-        }
-
-        return ret.toString();
-    }
 
 }

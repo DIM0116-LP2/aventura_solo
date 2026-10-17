@@ -63,11 +63,11 @@ public abstract class Player extends Personagem{
     }
     public void end_mission(){
         Recompensa prize = this.mission.endMission();
-        this.add_money(prize.get_gold());
-        inv.add_item(prize.receive());
+        this.add_money(prize.getGold());
+        inv.add_item(prize.getItem());
         mission = null;
         System.out.printf("\n\nMISSION SUCCESS!\nWell done, %s.%nYour prize was:%n%s%n%d Gold.\n\n",
-                          this.get_name(), prize.receive(), prize.get_gold());
+                          this.get_name(), prize.getItem(), prize.getGold());
     }
 
     // [ III ] OVERRIDE METHODS
